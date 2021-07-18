@@ -1,0 +1,9 @@
+<launch>
+
+<node pkg = "irc_kt" type= "ajeynagar.py" name="students" output="screen"/>
+
+<node pkg = "irc_kt" type= "pradeep.py" name="pradeep" output="screen"/>
+
+<node pkg = "rqt_graph" type="rqt_graph" name="rqt_graph" output="screen"/>
+
+</launch>
